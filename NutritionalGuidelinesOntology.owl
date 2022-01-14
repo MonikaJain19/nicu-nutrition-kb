@@ -694,22 +694,6 @@
     
 
 
-    <!-- http://www.childhealthimprints.com/NutritionalGuidelines/CHO -->
-
-    <owl:Class rdf:about="http://www.childhealthimprints.com/NutritionalGuidelines/CHO">
-        <rdfs:subClassOf rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/ParenteralFeed"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.childhealthimprints.com/NutritionalGuidelines/Calcium -->
-
-    <owl:Class rdf:about="http://www.childhealthimprints.com/NutritionalGuidelines/Calcium">
-        <rdfs:subClassOf rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/ParenteralFeed"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.childhealthimprints.com/NutritionalGuidelines/Color -->
 
     <owl:Class rdf:about="http://www.childhealthimprints.com/NutritionalGuidelines/Color"/>
@@ -774,36 +758,6 @@
 
     <owl:Class rdf:about="http://www.childhealthimprints.com/NutritionalGuidelines/Group1">
         <rdfs:subClassOf rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/#Neonate"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/CHO"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Calcium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Potassium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Protein"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Sodium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -812,36 +766,6 @@
 
     <owl:Class rdf:about="http://www.childhealthimprints.com/NutritionalGuidelines/Group2">
         <rdfs:subClassOf rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/#Neonate"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/CHO"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Calcium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Potassium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Protein"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Sodium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -850,36 +774,6 @@
 
     <owl:Class rdf:about="http://www.childhealthimprints.com/NutritionalGuidelines/Group3">
         <rdfs:subClassOf rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/#Neonate"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/CHO"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Calcium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Potassium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Protein"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Sodium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -888,36 +782,6 @@
 
     <owl:Class rdf:about="http://www.childhealthimprints.com/NutritionalGuidelines/Group4">
         <rdfs:subClassOf rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/#Neonate"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/CHO"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Calcium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Potassium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Protein"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Sodium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -926,36 +790,6 @@
 
     <owl:Class rdf:about="http://www.childhealthimprints.com/NutritionalGuidelines/Group5">
         <rdfs:subClassOf rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/#Neonate"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/CHO"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Calcium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Potassium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Protein"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Sodium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -964,36 +798,6 @@
 
     <owl:Class rdf:about="http://www.childhealthimprints.com/NutritionalGuidelines/Group6">
         <rdfs:subClassOf rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/#Neonate"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/CHO"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Calcium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Potassium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Protein"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Sodium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1074,22 +878,6 @@
     
 
 
-    <!-- http://www.childhealthimprints.com/NutritionalGuidelines/Potassium -->
-
-    <owl:Class rdf:about="http://www.childhealthimprints.com/NutritionalGuidelines/Potassium">
-        <rdfs:subClassOf rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/ParenteralFeed"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.childhealthimprints.com/NutritionalGuidelines/Protein -->
-
-    <owl:Class rdf:about="http://www.childhealthimprints.com/NutritionalGuidelines/Protein">
-        <rdfs:subClassOf rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/ParenteralFeed"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.childhealthimprints.com/NutritionalGuidelines/RadiologyInvestigation -->
 
     <owl:Class rdf:about="http://www.childhealthimprints.com/NutritionalGuidelines/RadiologyInvestigation">
@@ -1115,14 +903,6 @@
     <!-- http://www.childhealthimprints.com/NutritionalGuidelines/SignAndSymptom -->
 
     <owl:Class rdf:about="http://www.childhealthimprints.com/NutritionalGuidelines/SignAndSymptom"/>
-    
-
-
-    <!-- http://www.childhealthimprints.com/NutritionalGuidelines/Sodium -->
-
-    <owl:Class rdf:about="http://www.childhealthimprints.com/NutritionalGuidelines/Sodium">
-        <rdfs:subClassOf rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/ParenteralFeed"/>
-    </owl:Class>
     
 
 
@@ -1180,37 +960,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/CHO"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Calcium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
                 <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/ParenteralFeed"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Potassium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Protein"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/hasParenteralFeed"/>
-                <owl:someValuesFrom rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/Sodium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1312,6 +1062,22 @@
     
 
 
+    <!-- http://www.childhealthimprints.com/NutritionalGuidelines/CHO -->
+
+    <owl:NamedIndividual rdf:about="http://www.childhealthimprints.com/NutritionalGuidelines/CHO">
+        <rdf:type rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/ParenteralFeed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.childhealthimprints.com/NutritionalGuidelines/Calcium -->
+
+    <owl:NamedIndividual rdf:about="http://www.childhealthimprints.com/NutritionalGuidelines/Calcium">
+        <rdf:type rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/ParenteralFeed"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.childhealthimprints.com/NutritionalGuidelines/ChestCompression -->
 
     <owl:NamedIndividual rdf:about="http://www.childhealthimprints.com/NutritionalGuidelines/ChestCompression"/>
@@ -1392,9 +1158,25 @@
     
 
 
+    <!-- http://www.childhealthimprints.com/NutritionalGuidelines/Potassium -->
+
+    <owl:NamedIndividual rdf:about="http://www.childhealthimprints.com/NutritionalGuidelines/Potassium">
+        <rdf:type rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/ParenteralFeed"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.childhealthimprints.com/NutritionalGuidelines/Pressor -->
 
     <owl:NamedIndividual rdf:about="http://www.childhealthimprints.com/NutritionalGuidelines/Pressor"/>
+    
+
+
+    <!-- http://www.childhealthimprints.com/NutritionalGuidelines/Protein -->
+
+    <owl:NamedIndividual rdf:about="http://www.childhealthimprints.com/NutritionalGuidelines/Protein">
+        <rdf:type rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/ParenteralFeed"/>
+    </owl:NamedIndividual>
     
 
 
@@ -1423,6 +1205,14 @@
     <!-- http://www.childhealthimprints.com/NutritionalGuidelines/Skin -->
 
     <owl:NamedIndividual rdf:about="http://www.childhealthimprints.com/NutritionalGuidelines/Skin"/>
+    
+
+
+    <!-- http://www.childhealthimprints.com/NutritionalGuidelines/Sodium -->
+
+    <owl:NamedIndividual rdf:about="http://www.childhealthimprints.com/NutritionalGuidelines/Sodium">
+        <rdf:type rdf:resource="http://www.childhealthimprints.com/NutritionalGuidelines/ParenteralFeed"/>
+    </owl:NamedIndividual>
     
 
 
