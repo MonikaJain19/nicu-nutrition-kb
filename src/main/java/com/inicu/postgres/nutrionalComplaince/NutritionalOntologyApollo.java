@@ -120,7 +120,7 @@ import java.io.FileNotFoundException;
 @Repository
 public class NutritionalOntologyApollo extends Thread {
 
-	static final String inputFileName = "NutritionalGuidelinesOntology.owl";
+	static final String inputFileName = "NutritionOntology15Jan.owl";
 	static Property hasGestationalAgeAtBirth;
 	static Property hasFeedIntolerance;
 	static Property hasDayOfLife;
